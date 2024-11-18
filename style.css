@@ -1,0 +1,139 @@
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  color: #2ab62d;
+  letter-spacing: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.bundle-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.bundle-box.active {
+  border-color: #00a676;
+  background-color: #e7f8f2;
+  padding-bottom: 20px;
+}
+
+.bundle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bundle-content {
+  display: none;
+  margin-top: 15px;
+}
+
+.bundle-box.active .bundle-content {
+  display: block;
+}
+
+.bundle-content .option-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bundle-content select {
+  width: 48%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.note {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00a676;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #00885e;
+}
+
+.summary-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #555;
+  padding: 10px 0;
+}
+
+.summary-section span {
+  margin-right: 10px;
+}
+
+.summary-section .total {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p {
+  margin-left: 130px;
+}
+
+.bundle-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgb(84, 199, 84);
+  color: white;
+}
+
+
+#s{
+  margin-left: 282px;
+  margin-bottom: 5px;
+ color: rgb(255, 255, 255);
+}
